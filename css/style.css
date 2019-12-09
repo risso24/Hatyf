@@ -57,7 +57,9 @@ nav {
     line-height: 103px;
     color: #FFFFFF;
     vertical-align:center;
+    text-shadow: black 0.1em 0.05em 0.2em;
 }
+
 @media all and (max-width:650px) {
     body {
         background:url(../img/cover2.png),url(../img/cover1.png),url(../img/bgimage.png);
@@ -65,7 +67,6 @@ nav {
         background-position: bottom,bottom,top;
         background-size: contain,contain,cover;
         background-attachment: fixed,fixed,fixed;
-    
     }
     nav{
         display:flex;
@@ -74,18 +75,18 @@ nav {
         text-align: center;
         margin:0 auto;
         position:absolute;
-        top:25vh;
+        top:35vh;
     }
     button {
         align-items: center;
-        margin:5% auto;
+        margin:3% auto;
     }
     .btn:not(:first-child) {
         margin-left: inherit;
-      }/* it was used because it was necessary adjust margin but less the first element*/
-      .title{
-          position:fixed;
-          top:-30vh;
-          left:25vw;
-}
+    }/* it was used because it was necessary adjust margin but less the first element*/
+    .title{
+        position:fixed;
+        top:-30vh;
+        left:25vw;
+    }
 }

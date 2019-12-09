@@ -1,0 +1,98 @@
+body{
+    background:url(./image/cover2.png),url(./image/cover1.png),url(./image/bgimage.png);
+    background-repeat:no-repeat,no-repeat,no-repeat;
+    background-position: bottom,bottom,top;
+    background-size: contain,contain,cover;
+    background-attachment: fixed,fixed,fixed;
+    margin:0px;
+    height:100vh;
+    }
+
+    .btn {
+        background-color: #56839C;
+        width: 150px;
+        font-family: ‘Piedra’, cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 36px;
+        color: #FFFFFF;
+        cursor: pointer;
+        box-sizing: border-box;
+        -webkit-text-stroke: 2px #6F7F87;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        border-radius: 30px;
+        padding: 5px 20px 0 20px;
+    }
+    .btn:not(:first-child) {
+        margin-left: 20px;
+      }/* it was used because it was necessary adjust margin but less the first element*/
+    nav {
+        display: flex;
+        float:right;
+        align-items: center;
+        margin-right: 10px;
+    }
+    .title{
+        position: relative;
+        display:flex;
+        margin-left:0px;
+        height:100vh;
+    }
+    #logo{
+        position: relative;
+        top:35%;
+        width: 90px;
+        height: 103px;
+        margin:0px 5px 0px 20px;
+    }
+    #name{
+        position: relative;
+        top:35%;
+        width: 586px;
+        height: 105px;
+        margin:0px 0px 0px -10px;
+        font-family: ‘Keania One’, cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 70px;
+        line-height: 103px;
+        color: #FFFFFF;
+        vertical-align:center;
+    }
+    .universal{
+        width:100px;
+        height:100px;
+        border-radius:50%;
+        display:block;
+        margin:0 auto;
+        justify-content: center;
+    }
+    .description{
+        width:100px;
+        font-size:0.8em;
+        margin:0 auto;
+    }
+    #combine{
+        display:flex;
+        width:80vw;
+        height:80vh;
+        align-items: center;
+        justify-content:center;
+        margin:0 auto;
+    }
+    .name{
+        text-align: center;
+    }
+    .consolidate{
+        width:20vw;
+        border:1px solid gray;
+        border-radius:40px;
+        justify-content: center;
+        background-color :white;
+        padding:10px;
+        box-sizing:border-box;
+    }
+    .second, .fourth{
+        align-self:flex-end;
+    }
