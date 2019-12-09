@@ -1,0 +1,144 @@
+body{
+    background:url(./Hatyf/cover1.png),url(./Hatyf/cover2.png),url(./Hatyf/bgimage.png);
+    background-repeat:no-repeat,no-repeat,no-repeat;
+    background-position: bottom,bottom,top;
+    background-size: contain,contain,cover;
+    background-attachment: fixed,fixed,fixed;
+    margin:0px;
+    height:100%;
+}
+
+footer{
+    position:absolute;
+    width:100%;
+    height:272px;
+    bottom:0px;
+    margin:0px;
+    border:1px solid #000;
+}
+
+cover{
+    position:relative;
+    width:100%;
+    height:272px;
+    margin:0px;
+    left:-10px;
+    border:1px solid red;
+}
+
+cover1{
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+cover2{
+    position:absolute;
+    left:0px;
+    top:20px;
+}
+
+.navigation{
+    width: 600px;
+    position:fixed;
+    top:50px;
+    right:0px;  
+
+}
+
+li{
+    display: inline-block;
+    margin-left:20px;
+    font-size:29px;
+    font-family: Piedra;
+    color:#fff;
+    background-color:#56839C;
+    border:2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding:4px;
+    width:130px;
+    height:45px;
+    text-align:center;
+
+}
+
+.title{
+    position: absolute;
+    margin-left:0px;
+    height:100%;   
+}
+
+#logo{
+    display:inline-block;
+    position: relative;
+    top:35%;
+    width: 160px;
+    height: 138px;
+    border:1px solid #000;
+    margin:0px 10px 0px 20px;
+}
+#name{
+    display:inline-block;
+    position: relative;
+    top:35%;
+    width: 586px;
+    height: 138px;
+    margin:0px;
+    font-family: 'Keania One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 175px;
+    color: #FFFFFF;
+    vertical-align:center;
+}
+
+
+
+.rcorner1 {
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 300px;
+    margin:30px;
+    background-color: white;
+    border-radius: 50px;
+    border:solid 1px slategrey;
+} 
+
+.photo{
+    position: absolute;
+    
+    top:10px;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    right:50px;
+}
+
+.rcorner2 {
+    position: relative;
+    top:150px;
+    display: inline-block;
+    width: 15%;
+    height: 300px;
+    margin:30px;
+    background-color: white;
+    border-radius: 50px;
+    border:solid 1px slategrey;
+} 
+.btn {
+    background-color: #56839C;
+    font-family: 'Piedra', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+    cursor: pointer;
+    color-stroke: 2px #6F7F87;
+    -webkit-text-stroke: 2px #6F7F87;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding: 0 20px;
+    
+    }
