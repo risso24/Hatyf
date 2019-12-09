@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
     background:url(../img/cover2.png),url(../img/cover1.png),url(../img/bgimage.png);
+=======
+    background-image: url(../img/desktop3.png), url(../img/desktop2.png), url(../img/desktop1.png);
+>>>>>>> ba1d2176c439528e9113d6aed3d596c7d5b8f6ad
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: contain, contain, cover;
     background-position: bottom, bottom, top;
@@ -33,6 +37,10 @@ nav {
     float:right;
     align-items: center;
     margin-right: 10px;  
+<<<<<<< HEAD
+=======
+    
+>>>>>>> ba1d2176c439528e9113d6aed3d596c7d5b8f6ad
 }
 
 .title{
@@ -74,9 +82,15 @@ nav {
     color: #FFFFFF;
     vertical-align:center;
     text-shadow: black 0.1em 0.05em 0.2em; 
+<<<<<<< HEAD
     padding:0 auto;
 }
 
+=======
+}
+
+
+>>>>>>> ba1d2176c439528e9113d6aed3d596c7d5b8f6ad
 .menu-center {
     width: 100vw;
     height: 150px;
@@ -95,6 +109,7 @@ nav {
     margin-left:85px;
 }
 
+<<<<<<< HEAD
 .individual-box{
     display:flex;
     justify-content: center;      
@@ -103,6 +118,18 @@ nav {
 }
 .contact-container, .contact-box {
     display: flex;
+=======
+.combine {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: row;;
+>>>>>>> ba1d2176c439528e9113d6aed3d596c7d5b8f6ad
     width: 80vw;
     height: 35vh;
     align-items: center;
@@ -114,7 +141,11 @@ nav {
     font-weight: normal;
     font-size: 8.69053px;
     color: #000000;
+<<<<<<< HEAD
     
+=======
+        
+>>>>>>> ba1d2176c439528e9113d6aed3d596c7d5b8f6ad
 }
 
 .text-box {
@@ -126,6 +157,7 @@ nav {
     border-radius: 0px 28.757px 28.757px 28.7563px;
     margin-left: 41px;
     padding-top: 3px;
+<<<<<<< HEAD
     justify-content:center;
 }
 @media only screen and (max-width: 650px) {
@@ -137,6 +169,23 @@ nav {
         display:block;  
 
         background:url(../img/cover2.png),url(../img/cover1.png),url(../img/bgimage.png);
+=======
+}
+
+
+@media all and (max-width:650px) {
+
+    .hide-mobile { display: none !important;}
+
+    .combine{
+        display:flex;
+        flex-direction: row;;
+    }
+    
+    body {     
+        display:block;  
+        background-image: url(../img/desktop3.png), url(../img/desktop2.png), url(../img/desktop1.png);
+>>>>>>> ba1d2176c439528e9113d6aed3d596c7d5b8f6ad
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-size: contain, contain, cover;
         background-position: bottom, bottom, top;
@@ -144,7 +193,11 @@ nav {
     }
 
     nav {
+<<<<<<< HEAD
         margin: 180px 162px 50px 0;
+=======
+        margin: 150px 30% 30px 30%;
+>>>>>>> ba1d2176c439528e9113d6aed3d596c7d5b8f6ad
     }
 
     main {
@@ -162,6 +215,7 @@ nav {
 
     }
 
+<<<<<<< HEAD
     .btn {
         padding: 0; 
         margin: 0 auto;
@@ -179,6 +233,16 @@ nav {
         align-items: center;
         justify-content: center;
         margin: 0 auto;
+=======
+    .contact-container {
+        display: flex;
+        flex-direction:column ;
+        width: 100%;
+        height: auto;        
+        align-items: center;
+        justify-content: center;
+        margin: 0 20% 0px -50px;
+>>>>>>> ba1d2176c439528e9113d6aed3d596c7d5b8f6ad
         text-align: center;
         font-family: keania One;
         font-style: normal;
@@ -186,6 +250,7 @@ nav {
         font-size: 4.94921px;
         line-height: 6px;
         color: #000000;
+<<<<<<< HEAD
         border:1px solid red;
     }
     .individual-box{
@@ -199,10 +264,19 @@ nav {
     .text-box {
         width: 158.55px;
         height: 60px;
+=======
+    }
+ 
+
+    .text-box {
+        width: 158.55px;
+        height: 43.28px;
+>>>>>>> ba1d2176c439528e9113d6aed3d596c7d5b8f6ad
         background: rgba(255, 255, 255, 0.8);
         border: 0.470467px solid rgba(0, 0, 0, 0.8);
         box-sizing: border-box;
         border-radius: 0px  28.228px;
+<<<<<<< HEAD
         margin-left: 10px;
         padding: 3px;
         justify-content:center;
@@ -214,3 +288,9 @@ nav {
     }
     
 }
+=======
+        margin-left: 20px;
+        padding-top: 3px;
+    }
+
+>>>>>>> ba1d2176c439528e9113d6aed3d596c7d5b8f6ad
