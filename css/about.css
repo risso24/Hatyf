@@ -1,0 +1,209 @@
+body{
+    background:url(../image/cover2.png),url(../image/cover1.png),url(../image/bgimage.png);
+    background-repeat:no-repeat,no-repeat,no-repeat;
+    background-position: bottom,bottom,top;
+    background-size: contain,contain,cover;
+    background-attachment: fixed,fixed,fixed;
+    margin:0px;
+    height:100vh;
+        }
+    .btn {
+        background-color: #56839C;
+        width: 150px;
+        font-family: 'Piedra', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 36px;
+        color: #FFFFFF;
+        cursor: pointer;
+        box-sizing: border-box;
+        -webkit-text-stroke: 2px #6F7F87;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        border-radius: 30px;
+        padding: 5px 20px 0 20px;
+        }  
+    .btn:not(:first-child) {
+        margin-left: 20px;
+          }/* it was used because it was necessary adjust margin but less the first element*/
+    nav {
+        display: flex;
+        float:right;
+        align-items: center;
+        margin-right: 10px;
+        margin-top: 5px;
+        }         
+    nav{
+        display:flex;
+        float:right;
+        align-items: center;
+        margin-right: 10px;
+        }
+    .title{
+        position: relative;
+        display:flex;
+        margin-left:0px;
+        height:0px;
+        }
+    #logo{
+        position: relative;
+        top:35%;
+        width: 90px;
+        height: 103px;
+        margin:0px 5px 0px 20px;
+        }
+    #name{
+        position: relative;
+        top:35%;
+        width: 586px;
+        height: 105px;
+        margin:0px 0px 0px -10px;
+        font-family: 'Keania One', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 70px;
+        line-height: 103px;
+        color: #FFFFFF;
+        vertical-align:center;
+        text-shadow: black 0.1em 0.05em 0.2em;
+        }
+    #about {
+        font-family: 'Keania One', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 70px;
+        line-height: 103px;
+        color: #FFFFFF;
+        vertical-align:center;
+        text-shadow: black 0.1em 0.05em 0.2em;
+        }
+    .menu-center {
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin:10px 0 20px 0;
+        } 
+    .photo{
+        width:150px;
+        border-radius:30%;
+        display:block;
+        margin:0 auto;
+        justify-content: center;
+        }
+    .description{
+        width:160px;
+        margin: 0 auto;
+        }
+    .description p{
+        margin-bottom: 10px;
+        }
+    #combine{
+        display:flex;
+        width:1200px;
+        height:600px;
+        align-items: start;
+        margin:0 auto;    
+        }
+    .NAME{
+        text-align: center;
+        font-family:Arial;
+        font-size:20px;
+        color:black;
+        margin:10px;
+        }
+        .consolidate{
+        width:300px;
+        height:390px;
+        border:1px solid gray;
+        border-radius:40px;
+        justify-content: center;
+        background-color :white;
+        margin:15px;
+        padding: 10px;    
+        }
+        .second, .fourth{
+        align-self:flex-end;
+        }      
+    /*   This is for respomsible page through smart phone device from desktop in " About" page*/
+    @media all and (max-width:650px){
+
+    .hide-mobile {
+        display: none !important;/* First of all we just write */
+    }
+    nav {
+        margin: 150px 30% 30px 30%;
+    }
+    
+    .photo{
+        width: 80px;/**/
+        height: 95px;/**/
+        border-radius:30%;
+        display:block;
+        margin:0 auto;
+        justify-content: center;
+    }
+    .description{
+        width:150px;
+        margin:0 auto;
+        font-size: 15px;/*fontsize(plofile size) was chaged */ 
+        padding: 15px;/**/
+    }
+    #combine{
+        display:flex;
+        flex-direction: column;/**/
+        width:290px;/**/
+        height:auto;/**/
+        align-items: center;
+        margin:150px auto;
+        background-color: white;/**/
+        border-radius: 100px 0px;/**/
+        padding: 15px;/**/
+        
+    }
+​
+    .NAME{
+        text-align: center;
+        font-family:Verdana;
+        font-size :16px;
+        color:black;
+        margin: 0 auto;
+       
+    }
+    .change{
+        font-size: 16px;
+    }
+    .consolidate{
+        width:100%;/**/
+        height:100px;/**/
+        border:none;/**/
+        border-radius:40px;
+        justify-content: center;
+        background-color :transparent;/**/
+        margin:15px;
+        padding: 15px;
+        display: flex;/**/
+        
+    }
+    .second, .fourth, .first, .third, .fifth{
+        align-self:flex-start;/**/
+    }
+    .mylove{
+        display:flex;
+        flex-direction: column; /* each name's possition was located as a row(beside), so I just have changed as a colums(behind,vertical)*/
+        text-align: center; /* each name's possition was located on bottom left of photos, so I just have changed the position to centerrize */
+    }
+    .menu-center 
+{
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;/**/
+        margin:10px 0 20px 0;
+    }
+    
+}

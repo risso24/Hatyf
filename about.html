@@ -5,47 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About</title>
-    <link rel="stylesheet" href="./css/style-about.css"/>
+    <link rel="stylesheet" href="./css/about.css"/>
     <link href="https://fonts.googleapis.com/css?family=Piedra&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Keania+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
         <button class="btn btn-home hide-mobile" onclick="location.href='index.html'">HOME</button>
-        <button class="btn btn-home hide-mobile" onclick="location.href='about.html'">ABOUT</button>
-        <button class="btn btn-home" onclick="location.href='contact.html'">CONTACT</button>        
+        <button class="btn btn-about" onclick="location.href='about.html'">ABOUT</button>
+        <button class="btn btn-contact hide-mobile" onclick="location.href='contact.html'">CONTACT</button>
     </nav>
-    <main>
+    
+​<main>
         <div class="title">
-            <img id="logo" src="ggog_logo.png" alt="Hatyf logo">
+            <a href="index.html"><img id="logo" src="./image/ggog_logo.png" alt="Hatyf logo"></a>
             <h1 id="name">atyf</h1>
         </div>
-        <div id="combine"><div class="first consolidate">
-                        <img src="hiro.jpg" alt="photo" class="first-photo universal" >
-                        <p class="name">Hiro<p>
-                        <p class="fifth-description description">when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <section class="menu-center hide-mobile">
+        <h1 id="about">ABOUT</h1>
+    </section>
+        <!-- inytroduce each member outline -->
+        <div id="combine">
+            <div class="first consolidate">
+                <div class="mylove">
+                        <img src="./image/hiro.jpg" alt="photo" class="photo" >
+                        <p class="NAME">Hiro<p>
+                </div>
+                        <p class="description">I’m lacrosse player who have experience playing lacrosse for 9 years in Japan</p>
+            </div>
+            <div class="second consolidate">
+                    <div class="mylove">
+                        <img src="./image/afshin.jpg" alt="photo" class="photo">
+                        <p class="NAME">Afsfin</p>
                     </div>
-                    <div class="second consolidate">
-                        <img src="afshin.jpg" alt="photo" class="first-photo universal">
-                        <p class="name">Afshin</p>
-                        <p class="fifth-description description">when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p class="description">Working as a front end developer in Hatyf company, my speciality is developing CSS file while collaborating with my team</p>
+            </div>        
+            <div class="third consolidate">
+                    <div class="mylove">
+                        <img src="./image/tomona.jpg" alt="photo" class="photo">
+                        <p class="NAME">Tomona</p>
                     </div>
-                    <div class="third consolidate">
-                        <img src="tomona.jpg" alt="photo" class="first-photo universal">
-                        <p class="name">Tomona</p>
-                        <p class="fifth-description description">when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p class="description">Adept in sales analysis, sales promotion planning, and marketing new office supplies, planning, and developing of private-brand products</p>
+            </div>
+            <div class="fourth consolidate">
+                    <div class="mylove">
+                        <img src="./image/yusuke.jpg" alt="photo" class="photo">
+                        <p class="NAME">Yusuke</p>
                     </div>
-                    <div class="fourth consolidate">
-                        <img src="yusuke.jpg" alt="photo" class="first-photo universal">
-                        <p class="name">Yusuke</p>
-                        <p class="fifth-description description">when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p class="description">I majored about promoting town planning in Japan, then I will try to spread Japanese rural area lifestyle using IT development.</p>
+            </div>
+            <div class="fifth consolidate">
+                    <div class="mylove">
+                        <img src="./image/fernando.jpg" alt="photo" class="photo">
+                        <p class="NAME change">Fernando</p>
                     </div>
-                    <div class="fifth consolidate">
-                        <img src="fernando.jpg" alt="photo" class="first-photo universal">
-                        <p class="name">Fernando</p>
-                        <p class="fifth-description description">when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    </div>
-                    </div>
+                        <p class="description">I'm a professional who is now willing to develop myself in a new area: Web & Mobile Development, so based on that I’d like to use my experience </p>
+            </div>
+                        
+        </div>
+                            
     </main>
 </body>
 </html>
