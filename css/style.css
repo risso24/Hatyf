@@ -1,92 +1,94 @@
 body{
 
-        background:url(../img/cover2.png),url(../img/cover1.png),url(../img/bgimage.png);
-        background-repeat:no-repeat,no-repeat,no-repeat;
-        background-position: bottom,bottom,top;
-        background-size: contain,contain,cover;
-        background-attachment: fixed,fixed,fixed;
-    }
+    background:url(../img/cover2.png),url(../img/cover1.png),url(../img/bgimage.png);
+    background-repeat:no-repeat,no-repeat,no-repeat;
+    background-position: bottom,bottom,top;
+    background-size: contain,contain,cover;
+    background-attachment: fixed,fixed,fixed;
+}
 .btn {
-    background-color: #56839C;
-    width: 150px;
-    font-family: 'Piedra', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 36px;
-    color: #FFFFFF;
-    cursor: pointer;
-    box-sizing: border-box;
-    -webkit-text-stroke: 2px #6F7F87;
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    border-radius: 30px;
-    padding: 5px 20px 0 20px;
+background-color: #56839C;
+width: 150px;
+font-family: 'Piedra', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 36px;
+color: #FFF;
+cursor: pointer;
+box-sizing: border-box;
+-webkit-text-stroke: 2px #6F7F87;
+border: 2px solid rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+padding: 5px 20px 0;
+Text-transform: capitalize;
 }
 .btn:not(:first-child) {
-    margin-left: 20px;
-  }/* it was used because it was necessary adjust margin but less the first element*/
+margin-left: 20px;
+}/* it was used because it was necessary adjust margin but less the first element*/
 nav {
-    display: flex;
-    float:right;
-    align-items: center;
-    margin-right: 10px;
+display: flex;
+float:right;
+align-items: center;
+margin-right: 10px;
 }
 .title{
-    position: relative;
-    display:flex;
-    margin-left:0px;
-    height:100vh;
+position: relative;
+display:flex;
+margin-left:0px;
+height:100vh;
 }
 #logo{
-    position: relative;
-    top:35%;
-    width: 90px;
-    height: 103px;
-    margin:0px 5px 0px 20px;
+position: relative;
+top:35%;
+width: 90px;
+height: 103px;
+margin:0px 5px 0px 20px;
 }
 #name{
-    position: relative;
-    top:35%;
-    width: 586px;
-    height: 105px;
-    margin:0px 0px 0px -10px;
-    font-family: 'Keania One', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 70px;
-    line-height: 103px;
-    color: #FFFFFF;
-    vertical-align:center;
-    text-shadow: black 0.1em 0.05em 0.2em;
+position: relative;
+top:35%;
+width: 586px;
+height: 105px;
+margin:0px 0px 0px -10px;
+font-family: 'Keania One', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 70px;
+line-height: 103px;
+color: #FFFFFF;
+vertical-align:center;
+text-shadow: black 0.1em 0.05em 0.2em;
 }
 
 @media all and (max-width:650px) {
-    body {
-        background:url(../img/cover2.png),url(../img/cover1.png),url(../img/bgimage.png);
-        background-repeat:no-repeat,no-repeat,no-repeat;
-        background-position: bottom,bottom,top;
-        background-size: contain,contain,cover;
-        background-attachment: fixed,fixed,fixed;
-    }
-    nav{
-        display:flex;
-        flex-direction: column;
-        width:100%;
-        text-align: center;
-        margin:0 auto;
-        position:absolute;
-        top:35vh;
-    }
-    button {
-        align-items: center;
-        margin:3% auto;
-    }
-    .btn:not(:first-child) {
-        margin-left: inherit;
-    }/* it was used because it was necessary adjust margin but less the first element*/
-    .title{
-        position:fixed;
-        top:-30vh;
-        left:25vw;
-    }
+body {
+    background:url(../img/cover2.png),url(../img/cover1.png),url(../img/bgimage.png);
+    background-repeat:no-repeat,no-repeat,no-repeat;
+    background-position: bottom,bottom,top;
+    background-size: contain,contain,cover;
+    background-attachment: fixed,fixed,fixed;
+}
+nav{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    text-align: center;
+    margin:0 auto;
+    position:absolute;
+    top:35vh;
+    z-index:2;
+}
+button {
+    align-items: center;
+    margin:3% auto;
+}
+.btn:not(:first-child) {
+    margin-left: inherit;
+}/* it was used because it was necessary adjust margin but less the first element*/
+.title{
+    position:fixed;
+    top:-30vh;
+    left:25vw;
+}
 }

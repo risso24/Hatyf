@@ -7,6 +7,7 @@ body{
     margin:0px;
     height:100vh;
         }
+
     .btn {
         background-color: #56839C;
         width: 150px;
@@ -15,44 +16,43 @@ body{
         font-weight: normal;
         font-size: 28px;
         line-height: 36px;
-        color: #FFFFFF;
-        cursor: pointer;
+        color: #FFF;
         box-sizing: border-box;
         -webkit-text-stroke: 2px #6F7F87;
         border: 2px solid rgba(0, 0, 0, 0.5);
         border-radius: 30px;
         padding: 5px 20px 0 20px;
-        }  
+        cursor: pointer;
+        } 
+
     .btn:not(:first-child) {
         margin-left: 20px;
           }/* it was used because it was necessary adjust margin but less the first element*/
+    
     nav {
         display: flex;
         float:right;
         align-items: center;
         margin-right: 10px;
         margin-top: 5px;
-        }         
-    nav{
-        display:flex;
-        float:right;
-        align-items: center;
-        margin-right: 10px;
-        }
-    .title{
+    }         
+
+    .title {
         position: relative;
         display:flex;
         margin-left:0px;
         height:0px;
-        }
-    #logo{
+    }
+
+    #logo {
         position: relative;
         top:35%;
         width: 90px;
         height: 103px;
         margin:0px 5px 0px 20px;
-        }
-    #name{
+    }
+
+    #name {
         position: relative;
         top:35%;
         width: 586px;
@@ -63,20 +63,22 @@ body{
         font-weight: normal;
         font-size: 70px;
         line-height: 103px;
-        color: #FFFFFF;
+        color: #FFF;
         vertical-align:center;
         text-shadow: black 0.1em 0.05em 0.2em;
-        }
+    }
+
     #about {
         font-family: 'Keania One', cursive;
         font-style: normal;
         font-weight: normal;
         font-size: 70px;
         line-height: 103px;
-        color: #FFFFFF;
+        color: #FFF;
         vertical-align:center;
         text-shadow: black 0.1em 0.05em 0.2em;
-        }
+    }
+
     .menu-center {
         width: 100vw;
         height: 150px;
@@ -85,7 +87,8 @@ body{
         justify-content: center;
         align-items: center;
         margin:10px 0 20px 0;
-        } 
+    } 
+
     .photo{
         width:150px;
         border-radius:30%;
@@ -93,13 +96,16 @@ body{
         margin:0 auto;
         justify-content: center;
         }
+
     .description{
         width:160px;
         margin: 0 auto;
         }
+
     .description p{
         margin-bottom: 10px;
         }
+
     #combine{
         display:flex;
         width:1200px;
@@ -107,14 +113,16 @@ body{
         align-items: start;
         margin:0 auto;    
         }
-    .NAME{
+
+    .name {
         text-align: center;
         font-family:Arial;
         font-size:20px;
         color:black;
         margin:10px;
-        }
-        .consolidate{
+    }
+
+    .consolidate{
         width:300px;
         height:390px;
         border:1px solid gray;
@@ -123,16 +131,19 @@ body{
         background-color :white;
         margin:15px;
         padding: 10px;    
-        }
-        .second, .fourth{
+    }
+
+    .second, .fourth{
         align-self:flex-end;
         }      
     /*   This is for respomsible page through smart phone device from desktop in " About" page*/
+    
     @media all and (max-width:650px){
 
     .hide-mobile {
         display: none !important;/* First of all we just write */
     }
+
     nav {
         margin: 150px 30% 30px 30%;
     }
@@ -145,13 +156,15 @@ body{
         margin:0 auto;
         justify-content: center;
     }
+
     .description{
         width:150px;
         margin:0 auto;
         font-size: 15px;/*fontsize(plofile size) was chaged */ 
         padding: 15px;/**/
     }
-    #combine{
+    
+    #combine {
         display:flex;
         flex-direction: column;/**/
         width:290px;/**/
@@ -164,7 +177,7 @@ body{
         
     }
 ​
-    .NAME{
+    .name {
         text-align: center;
         font-family:Verdana;
         font-size :16px;
@@ -190,7 +203,7 @@ body{
     .second, .fourth, .first, .third, .fifth{
         align-self:flex-start;/**/
     }
-    .mylove{
+    .contact-about {
         display:flex;
         flex-direction: column; /* each name's possition was located as a row(beside), so I just have changed as a colums(behind,vertical)*/
         text-align: center; /* each name's possition was located on bottom left of photos, so I just have changed the position to centerrize */
