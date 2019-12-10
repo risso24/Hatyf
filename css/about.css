@@ -1,5 +1,5 @@
 body{
-    background:url(../image/cover2.png),url(../image/cover1.png),url(../image/bgimage.png);
+    background:url(../img/cover2.png),url(../img/cover1.png),url(../img/bgimage.png);
     background-repeat:no-repeat,no-repeat,no-repeat;
     background-position: bottom,bottom,top;
     background-size: contain,contain,cover;
